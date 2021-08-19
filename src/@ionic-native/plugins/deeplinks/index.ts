@@ -19,6 +19,7 @@ export interface DeeplinkMatch {
    * the route was matched (for example, Facebook sometimes adds extra data)
    */
   $link: any;
+  $path: any;
 }
 
 export interface DeeplinkOptions {
